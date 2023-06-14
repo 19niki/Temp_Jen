@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools { 
-      	jdk "JDK"
+      	jdk "JDK11"
     }
     stages {
         stage('Cleanup Workspace') {
