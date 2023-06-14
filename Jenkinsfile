@@ -13,8 +13,8 @@ pipeline {
 
         stage('Code Build and run') {
             steps {
-                 bat 'javac Hello.java'
-                 bat 'java Hello'
+                 bat 'javac Test.java'
+                 bat 'java Test'
             }
         }
 		}   
