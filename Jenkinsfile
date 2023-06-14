@@ -13,7 +13,7 @@ pipeline {
 
         stage('Code Build and run') {
             steps {
-		    cmd "cd /Tmp"
+		 bat "cd /Tmp"
                  bat 'javac Test.java'
                  bat 'java Test'
             }
